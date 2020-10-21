@@ -40,6 +40,11 @@ public class Fruit {
 	public void setHasSeeds(boolean hasSeeds) {
 		this.hasSeeds = hasSeeds;
 	}
+
+	@Override
+	public String toString() {
+		return "Fruit [color=" + color + ", shape=" + shape + ", hasSeeds=" + hasSeeds + "]";
+	}
 	
 	
 	
